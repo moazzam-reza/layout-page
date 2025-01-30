@@ -16,7 +16,7 @@ body {
 .header {
     height: 40px;
     align-items: center;
-    padding: 10px 15vw;
+    padding: 22px 15vw 10px 15vw;
 }
 
 .header .logo {
@@ -87,7 +87,7 @@ a {
     background-color: #3882f6;
     color: #f9faf8;
     padding: 7px 28px 7px 28px;
-    border-radius: 11%;
+    border-radius: 12%;
     border: none;
 }
 
@@ -139,8 +139,79 @@ a {
 /* TESTIMONIALS */
 .testimonials {
     flex: 1;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 20vw 100px 20vw;
 }
 
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.quoter {
+    font-weight: 600;
+    font-size: 18px;
+    align-self: flex-end;
+    margin-top: 15px;
+}
+
+/* CALL TO ACTION */
 .sign-up {
     flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 15vw;
+}
+
+.center-blue {
+    background-color: #3882f6;
+    padding: 4vw 9vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 7vw;
+    border-radius: 5%;
+}
+
+.info,
+.subtext {
+    margin: 0;
+}
+
+.info,
+.sign-up button {
+    color: #f9faf8;
+}
+
+.subtext {
+    color: #e5e7eb;
+}
+
+.info {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+button {
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 12%;
+    padding: 5px 28px 5px 28px;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3.5vh 0 3.5vh 0;
 }
